@@ -1,0 +1,105 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "K3xgYwmcPFzn3jZp8nc7h2Zi8lRk5vR1o3kOas51A4KpfFq/0kXUBahg8Aqmtqi4gArmctEpu0bzYOa4gp5Q7w==",
+        "bundleName": "C077368E5C7_v2_sub_webSearch_Create",
+        "entitiesBundle": {
+          "Types": {
+            "results": {
+              "name": "results",
+              "properties": [
+                {
+                  "name": "title",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "snippet",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "url",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            },
+            "v2_sub_webSearch_Create": {
+              "name": "v2_sub_webSearch_Create",
+              "properties": [
+                {
+                  "name": "results",
+                  "type": {
+                    "definitionName": "results"
+                  },
+                  "isCollection": true,
+                  "collectionGenericType": {
+                    "ClrType": "System.Collections.Generic.List`1, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "formattedResults",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  },
+                  "attributes": {
+                    "values": [
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.CategoryAttribute, System.ComponentModel.Primitives"
+                        },
+                        "constructorArguments": [
+                          {
+                            "Value": "\"Simplified\"",
+                            "type": {
+                              "ClrType": "System.String, System.Private.CoreLib"
+                            }
+                          }
+                        ],
+                        "namedArguments": []
+                      },
+                      {
+                        "Type": {
+                          "ClrType": "System.ComponentModel.DataAnnotations.DisplayAttribute, System.ComponentModel.Annotations"
+                        },
+                        "constructorArguments": [],
+                        "namedArguments": [
+                          {
+                            "name": "Order",
+                            "value": {
+                              "Value": "1",
+                              "type": {
+                                "ClrType": "System.Int32, System.Private.CoreLib"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntegrationService.Activities.SWEntities.C077368E5C7_v2_sub_webSearch_Create",
+        "hash": "SzN4Z1l3bWNQRnpuM2pacDhuYzdoMlppOGxSazV2UjFvM2tPYXM1MUE0S3BmRnEvMGtYVUJhaGc4QXFtdHFpNGdBcm1jdEVwdTBiellPYTRncDVRN3c9PQ",
+        "assemblyName": "C077368E5C7_v2_sub_w.VsIsb103bbM1c1bsC4Iz0RY4"
+      }
+    }
+  ]
+}
